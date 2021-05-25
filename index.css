@@ -6,6 +6,7 @@
 body {
   font-size: 18px;
   font-family: "Kumbh Sans", sans-serif;
+  /* overflow: hidden; */
 }
 :root {
   /* primary-colors */
@@ -15,6 +16,16 @@ body {
   /* neutral-colors */
   --dark-gray: hsl(0, 0%, 59%);
   --white: rgb(255, 255, 255);
+}
+.top {
+  position: absolute;
+  bottom: 40%;
+  left: -25%;
+}
+.bottom {
+  position: absolute;
+  top: 50%;
+  right: -20%;
 }
 .container {
   height: 100vh;
